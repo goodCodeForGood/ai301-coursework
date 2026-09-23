@@ -20,18 +20,7 @@ https://github.com/codepath/pathreview-ai301-fa26-s1/issues/72
 
 **Verdict output**
 
-[Your skill's live-mode output for this issue, pasted verbatim and ending with the
-fenced JSON verdict block. A summary does not satisfy this field.]
-
-**The verdict must record `accept` for this issue.** Choose an issue your own skill
-accepts. If your skill rejects every candidate you try, that is a signal about your
-rubric rather than about the issues: revise it and re-run — retries are unlimited and a
-partial re-run costs about $0.20 — or run the skill on different candidates. Output
-recording `reject` for the issue you chose earns no credit for this field.
-
 ```
-Verdict output
-
 All three are in scope (codepath/pathreview-ai301-fa26-s1). Graded independently against the four required checks in rubric.md; no preferred checks are defined, so ranking falls to the fit profile alone.
 
 Shared repo evidence (measured against today, 2026-09-23): last 5 default-branch commits are all by Aburke225, newest 2026-09-16 — 7 days old, well inside the 180-day threshold. Repo is not archived. Aburke225 is a COLLABORATOR and opened all three issues.
@@ -119,8 +108,6 @@ Note: The live output above is included verbatim as provided.
 
 ## Eval iterations
 
-Quote source text directly in each field below. Paraphrase does not satisfy them.
-
 **Run history**
 
 agreement: 17/20 scored items (bar: 18/20: below the bar)
@@ -148,8 +135,6 @@ The check can reject an issue when the task is still reasonably approachable but
 ## Selection rationale
 
 **Selection rationale**
-
-[Answer all three:
 
 **1. The issue's fit to my interests and time:** I chose #72 because it is a Python/backend issue involving error handling and authentication-related verification behavior. It is more substantial than a documentation-only task while still being explicitly scoped to about 1–2 hours, which fits my available time.
 
