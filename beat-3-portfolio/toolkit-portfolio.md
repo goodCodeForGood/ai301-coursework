@@ -1,10 +1,11 @@
-*Toolkit Portfolio*
-*Building an AI Tool for Open Source Issue Selection*
+**Toolkit Portfolio**: *Building an AI Tool for Open Source Issue Selection*
+
 **Overview**
 
 For my AI Open Source Capstone, I built issue-select, an AI tool that helps developers find suitable open-source issues. I created my own evaluation rubric with four criteria: maintainer activity, repository activity, newcomer scope, and whether an issue had already been claimed. I tested the tool against 20 labelled cases and achieved 17/20 agreements (85%), slightly below the target of 18/20. This helped me understand why evaluating AI decisions is just as important as building the tool.
 
 **What happened**
+
 ***Building and using the tool***
 
 I wanted to make open-source issue selection more structured instead of relying entirely on AI recommendations. I created four checks:
@@ -28,23 +29,23 @@ On September 23, 2026, I ran the tool against 20 labelled cases using a pinned S
 
 My actual results were:
 
-Total cases: 20
-Agreement: 17/20 (85%)
-Target: 18/20 (90%)
+Total cases: 20 \
+Agreement: 17/20 (85%) \
+Target: 18/20 (90%) 
 
 Category breakdown:
-claimed:       4/4
-clear-accept:  6/8
-dead-repo:     3/3
-policy:        1/1
+claimed:       4/4 \
+clear-accept:  6/8 \
+dead-repo:     3/3 \
+policy:        1/1 \
 scope:         3/4
 
 
 There were three disagreements:
 
-Case	  Expected	Actual
-issue-04	Accept	Reject
-issue-15	Reject	Accept
+Case	  Expected	Actual \
+issue-04	Accept	Reject \
+issue-15	Reject	Accept \
 issue-19	Accept	Reject
 
 Issues 04 and 19 were rejected because my newcomer-scope check was too strict. Issue 15 showed the opposite problem: the tool accepted an issue that should have been rejected.
